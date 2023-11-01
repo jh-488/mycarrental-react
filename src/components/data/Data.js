@@ -48,7 +48,7 @@ export const featured = [
 export const cars = [
   {
     id: 1,
-    cover: "../mycarrental-react/src/assets/images/popular-cars/audi-a8.jpg",
+    cover: "./../src/assets/images/popular-cars/audi-a8.jpg",
     name: "Audi A8",
     location: "Berlin, Germany",
     category: "Sedan",
@@ -57,7 +57,7 @@ export const cars = [
   },
   {
     id: 2,
-    cover: "../mycarrental-react/src/assets/images/popular-cars/rr-velar.jpg",
+    cover: "./../src/assets/images/popular-cars/rr-velar.jpg",
     name: "Range Rover Velar",
     location: "Paris, France",
     category: "SUV",
@@ -66,7 +66,7 @@ export const cars = [
   },
   {
     id: 3,
-    cover: "../mycarrental-react/src/assets/images/popular-cars/mercedes-cle.jpg",
+    cover: "./../src/assets/images/popular-cars/mercedes-cle.jpg",
     name: "Mercedes CLE",
     location: "Frankfurt, Germany",
     category: "Coupe",
@@ -75,7 +75,7 @@ export const cars = [
   },
   {
     id: 4,
-    cover: "../mycarrental-react/src/assets/images/popular-cars/bmw-8s.jpg",
+    cover: "./../src/assets/images/popular-cars/bmw-8s.jpg",
     name: "BMW 8 Series",
     location: "Madrid, Spain",
     category: "Convertible",
@@ -84,7 +84,7 @@ export const cars = [
   },
   {
     id: 5,
-    cover: "../mycarrental-react/src/assets/images/popular-cars/porsche-gt3rs.jpg",
+    cover: "./../src/assets/images/popular-cars/porsche-gt3rs.jpg",
     name: "Porsche GT3 RS",
     location: "London, United Kingdom",
     category: "Sport Car",
@@ -93,7 +93,7 @@ export const cars = [
   },
   {
     id: 6,
-    cover: "../mycarrental-react/src/assets/images/popular-cars/mercedes-g-class.jpg",
+    cover: "./../src/assets/images/popular-cars/mercedes-g-class.jpg",
     name: "Mercedes G-Class",
     location: "Berlin, Germany",
     category: "SUV",
