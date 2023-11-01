@@ -15,4 +15,4 @@ To get the frontend running locally:
 * Landing/Home page to display main informations
 * About page to learn more about the service
 * Faqs page with an accordion
-* Contact page with a form (using [link](formsubmit.co))
+* Contact page with a form (using [formsubmit](formsubmit.co))
