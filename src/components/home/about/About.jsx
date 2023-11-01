@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import Heading from "../../header/Heading";
+import logo from "/logo.png";
 
 const About = () => {
     return (
@@ -23,7 +24,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="about-img">
-                    <img src="/logo.png" alt="about section image" />
+                    <img src={logo} alt="about section image" />
                     </div>
                 </div>
             </section>

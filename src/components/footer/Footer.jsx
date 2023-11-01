@@ -3,6 +3,7 @@ import "./Footer.css"
 import { footer } from "../data/Data";
 import { useNavigate } from "react-router-dom";
 import { useRef } from "react";
+import logo from "/logo.png";
 
 const Footer = () => {
     // to navigate to contact page when contact us is clicked
@@ -51,7 +52,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="box">
                         <div className="logo">
-                            <img src="/logo.png" alt="logo" />
+                            <img src={logo} alt="logo" />
                             <h2>Subscribe to our Newsletter</h2>
                             <p>Receive updates, hot deals and discounts sent straignt to your inbox.</p>
 

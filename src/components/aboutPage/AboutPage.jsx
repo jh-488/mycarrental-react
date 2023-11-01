@@ -4,6 +4,7 @@ import Back from "../back/Back";
 import img from "/images/about-page/about-page-banner.jpg";
 import Heading from "../header/Heading";
 import { aboutInfo } from "../data/Data";
+import aboutImg from "/images/about-page/about-page-img.jpg";
 
 const AboutPage = () => {
     return (
@@ -34,7 +35,7 @@ const AboutPage = () => {
                         })}
                     </div>
                     <div className="right row">
-                        <img src="/images/about-page/about-page-img.jpg" alt="car rental banner" />
+                        <img src={aboutImg} alt="car rental banner" />
                     </div>
                 </div>
             </section>
