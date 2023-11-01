@@ -2,6 +2,8 @@
 
 This is a react app for a car rental service generated using Vite.
 
+[DEMO](https://jh-488.github.io/mycarrental-react/)
+
 # Getting started
 
 To get the frontend running locally:
