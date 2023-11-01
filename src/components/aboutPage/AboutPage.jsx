@@ -34,7 +34,7 @@ const AboutPage = () => {
                         })}
                     </div>
                     <div className="right row">
-                        <img src="../src/assets/images/about-page/about-page-img.jpg" alt="car rental banner" />
+                        <img src="../mycarrental-react/src/assets/images/about-page/about-page-img.jpg" alt="car rental banner" />
                     </div>
                 </div>
             </section>
