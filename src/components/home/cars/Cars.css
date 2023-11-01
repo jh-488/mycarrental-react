@@ -1,0 +1,27 @@
+.cars .text {
+    padding: 30px;
+}
+
+.cars .availability span{
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.cars .availability i {
+    font-size: 20px;
+    color: #bec7d8;
+}
+
+.cars p {
+    color: #72809d;
+}
+
+.cars .button {
+    border-top: 1px solid #efe8f3;
+    padding: 10px 30px;
+}
+
+

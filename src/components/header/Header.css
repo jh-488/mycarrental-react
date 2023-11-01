@@ -1,0 +1,74 @@
+header {
+    background-color: #fff;
+    height: 8vh;
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header .nav {
+    margin: auto;
+}
+
+header img {
+    width: 200px;
+}
+
+header a {
+    margin-left: 50px;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+header a:hover {
+    color: #24ae60;
+}
+
+header h4 {
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+header .toggle {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0;
+    }
+
+    header img {
+        margin-top: 20px;
+    }
+
+    header .button {
+        display: none;
+    }
+
+    header .nav .flex {
+        display: none;
+    }
+
+    header .toggle {
+        display: block;
+        margin-top: 10px;
+    }
+
+    header .small {
+        position: absolute;
+        top: 8vh;
+        left: 0;
+        width: 100%;
+        background-color: #24ae60;
+        padding: 20px;
+    }
+
+    header li a {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+}

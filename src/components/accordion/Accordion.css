@@ -1,0 +1,38 @@
+.accordion {
+    max-width: 800px;
+    border-radius: 5px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 20px;
+    background: #f7f9fc;
+    border: 5px solid #27ae601f;
+}
+
+.section-text {
+    padding: 15px;
+    background: #27ae601f;
+}
+
+.section-title h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section-title .isactive {
+    font-size: 30px;
+    color: #27ae60;
+}
+
+@media screen and (max-width: 850px) {
+    .section-title {
+        padding: 10px;
+        border: 3px solid #27ae601f;
+    }
+    .section-title h4 {
+        font-weight: 300;
+    }
+}

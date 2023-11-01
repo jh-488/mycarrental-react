@@ -1,0 +1,47 @@
+.reviews .box {
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 15%);
+    border-radius: 6px;
+    padding: 30px;
+    text-align: center;
+}
+
+.reviews .box-image {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.reviews .box img {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+}
+
+.reviews h4 {
+    font-weight: 600;
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+.reviews .container {
+    position: relative;
+}
+
+.reviews button {
+    position: absolute;
+    top: 50%;
+    padding: 15px;
+}
+
+.next {
+    right: 0;
+}
+
+.previous {
+    left: 0;
+}
+
+
+
