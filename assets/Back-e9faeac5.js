@@ -1,0 +1,1 @@
+import{j as s}from"./index-6ce54a46.js";const a=({name:r,title:c,cover:e})=>s.jsx(s.Fragment,{children:s.jsxs("div",{className:"back",children:[s.jsxs("div",{className:"container",children:[s.jsx("span",{children:r}),s.jsx("h1",{children:c})]}),s.jsx("img",{src:e,alt:"section cover"})]})});export{a as B};
