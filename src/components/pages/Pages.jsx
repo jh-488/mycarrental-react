@@ -17,7 +17,7 @@ const Pages = () => {
                 <Header />
                 <Suspense fallback={<div className="spinner"></div>}>
                 <Routes>
-                    <Route path="/" Component={Home}></Route>
+                    <Route path="/mycarrental-react" Component={Home}></Route>
                     <Route path="/about" Component={AboutPage}></Route>
                     <Route path="/faqs" Component={Faqs}></Route>
                     <Route path="/contact" Component={Contact}></Route>

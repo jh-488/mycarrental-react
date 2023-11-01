@@ -6,7 +6,7 @@
     margin-bottom: 20px;
 }
 
-.contact textarea {
+.contact textarea, .contact input {
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;
   border-radius: 5px;
@@ -20,6 +20,7 @@
 .contact input {
   margin-bottom: 20px;
   margin-right: 10px;
+  padding: 10px;
 }
 .contact form {
   padding: 30px;
