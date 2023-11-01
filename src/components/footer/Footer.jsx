@@ -51,7 +51,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="box">
                         <div className="logo">
-                            <img src="../mycarrental-react/src/assets/logo.png" alt="logo" />
+                            <img src="/logo.png" alt="logo" />
                             <h2>Subscribe to our Newsletter</h2>
                             <p>Receive updates, hot deals and discounts sent straignt to your inbox.</p>
 

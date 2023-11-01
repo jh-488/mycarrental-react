@@ -26,7 +26,7 @@ const Header = () => {
             <header>
                 <div className="container flex">
                     <div className="logo">
-                        <img src="../mycarrental-react/src/assets/logo.png" alt="myCarRental logo" />
+                        <img src="/logo.png" alt="myCarRental logo" />
                     </div>
                     <div className="nav">
                         <ul className={navList ? "small" : "flex"}>

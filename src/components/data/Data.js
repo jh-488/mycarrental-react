@@ -5,41 +5,41 @@ export const nav = [
   },
   {
     text: "about",
-    path: "/about",
+    path: "/mycarrental-react/about",
   },
   {
     text: "faqs",
-    path: "/faqs",
+    path: "/mycarrental-react/faqs",
   },
   {
     text: "contact",
-    path: "/contact",
+    path: "/mycarrental-react/contact",
   },
 ];
 
 export const featured = [
   {
-    cover: "../mycarrental-react/src/assets/images/featured-icons/sedan.png",
+    cover: "/assets/images/featured-icons/sedan.png",
     name: "Sedan",
     total: "43 Cars",
   },
   {
-    cover: "../mycarrental-react/src/assets/images/featured-icons/suv.png",
+    cover: "/images/featured-icons/suv.png",
     name: "SUV",
     total: "50 Cars",
   },
   {
-    cover: "../mycarrental-react/src/assets/images/featured-icons/coupe.png",
+    cover: "/images/featured-icons/coupe.png",
     name: "Coupe",
     total: "23 Cars",
   },
   {
-    cover: "../mycarrental-react/src/assets/images/featured-icons/convertible.png",
+    cover: "/images/featured-icons/convertible.png",
     name: "Convertible",
     total: "20 Cars",
   },
   {
-    cover: "../mycarrental-react/src/assets/images/featured-icons/sport-car.png",
+    cover: "/images/featured-icons/sport-car.png",
     name: "Sports Car",
     total: "45 Cars",
   },
@@ -48,7 +48,7 @@ export const featured = [
 export const cars = [
   {
     id: 1,
-    cover: "./../src/assets/images/popular-cars/audi-a8.jpg",
+    cover: "/images/popular-cars/audi-a8.jpg",
     name: "Audi A8",
     location: "Berlin, Germany",
     category: "Sedan",
@@ -57,7 +57,7 @@ export const cars = [
   },
   {
     id: 2,
-    cover: "./../src/assets/images/popular-cars/rr-velar.jpg",
+    cover: "/images/popular-cars/rr-velar.jpg",
     name: "Range Rover Velar",
     location: "Paris, France",
     category: "SUV",
@@ -66,7 +66,7 @@ export const cars = [
   },
   {
     id: 3,
-    cover: "./../src/assets/images/popular-cars/mercedes-cle.jpg",
+    cover: "/images/popular-cars/mercedes-cle.jpg",
     name: "Mercedes CLE",
     location: "Frankfurt, Germany",
     category: "Coupe",
@@ -75,7 +75,7 @@ export const cars = [
   },
   {
     id: 4,
-    cover: "./../src/assets/images/popular-cars/bmw-8s.jpg",
+    cover: "/images/popular-cars/bmw-8s.jpg",
     name: "BMW 8 Series",
     location: "Madrid, Spain",
     category: "Convertible",
@@ -84,7 +84,7 @@ export const cars = [
   },
   {
     id: 5,
-    cover: "./../src/assets/images/popular-cars/porsche-gt3rs.jpg",
+    cover: "/images/popular-cars/porsche-gt3rs.jpg",
     name: "Porsche GT3 RS",
     location: "London, United Kingdom",
     category: "Sport Car",
@@ -93,7 +93,7 @@ export const cars = [
   },
   {
     id: 6,
-    cover: "./../src/assets/images/popular-cars/mercedes-g-class.jpg",
+    cover: "/images/popular-cars/mercedes-g-class.jpg",
     name: "Mercedes G-Class",
     location: "Berlin, Germany",
     category: "SUV",
@@ -169,27 +169,27 @@ export const faqsData = [
 export const reviews = [
   {
     name: "Jane M.",
-    image: "../mycarrental-react/src/assets/images/reviews/woman1.png",
+    image: "/images/reviews/woman1.png",
     review: "I had the best experience. The process was seamless, the car was spotless, and the team was incredibly helpful. I highly recommend them for your next adventure!",
   },
   {
     name: "John T.",
-    image: "../mycarrental-react/src/assets/images/reviews/man1.png",
+    image: "/images/reviews/man1.png",
     review: "I was a bit nervous as a first-time renter, but myCarRental put my worries to rest. Their staff patiently explained everything, and the rental process was straightforward.",
   },
   {
     name: "David H.",
-    image: "../mycarrental-react/src/assets/images/reviews/man2.png",
+    image: "/images/reviews/man2.png",
     review: "When I want to treat myself to a luxurious ride, I turn to myCarRental. Their selection of high-end vehicles is fantastic, and the experience is always first-class. A perfect choice for a special occasion!",
   },
   {
     name: "Emily R.",
-    image: "../mycarrental-react/src/assets/images/reviews/woman2.png",
+    image: "/images/reviews/woman2.png",
     review: "I had a last-minute trip and needed a car urgently. The booking was a breeze, and I was behind the wheel in no time. Excellent service and quick response.",
   },
   {
     name: "Tom L.",
-    image: "../mycarrental-react/src/assets/images/reviews/man3.png",
+    image: "/images/reviews/man3.png",
     review: "Renting a spacious SUV made our family vacation unforgettable. The vehicle was clean, comfortable, and fit all our luggage and kids perfectly. Thank you for making our trip so enjoyable!",
   },
 ]

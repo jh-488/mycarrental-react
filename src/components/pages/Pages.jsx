@@ -18,9 +18,9 @@ const Pages = () => {
                 <Suspense fallback={<div className="spinner"></div>}>
                 <Routes>
                     <Route path="/mycarrental-react" Component={Home}></Route>
-                    <Route path="/about" Component={AboutPage}></Route>
-                    <Route path="/faqs" Component={Faqs}></Route>
-                    <Route path="/contact" Component={Contact}></Route>
+                    <Route path="/mycarrental-react/about" Component={AboutPage}></Route>
+                    <Route path="/mycarrental-react/faqs" Component={Faqs}></Route>
+                    <Route path="/mycarrental-react/contact" Component={Contact}></Route>
                 </Routes>
                 </Suspense>
                 <Footer />

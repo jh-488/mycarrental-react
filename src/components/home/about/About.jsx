@@ -23,7 +23,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="about-img">
-                    <img src="../mycarrental-react/src/assets/logo.png" alt="about section image" />
+                    <img src="/logo.png" alt="about section image" />
                     </div>
                 </div>
             </section>

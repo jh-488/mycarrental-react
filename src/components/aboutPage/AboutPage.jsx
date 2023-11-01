@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutPage.css"
 import Back from "../back/Back";
-import img from "../../assets/images/about-page/about-page-banner.jpg";
+import img from "/images/about-page/about-page-banner.jpg";
 import Heading from "../header/Heading";
 import { aboutInfo } from "../data/Data";
 
@@ -34,7 +34,7 @@ const AboutPage = () => {
                         })}
                     </div>
                     <div className="right row">
-                        <img src="../mycarrental-react/src/assets/images/about-page/about-page-img.jpg" alt="car rental banner" />
+                        <img src="/images/about-page/about-page-img.jpg" alt="car rental banner" />
                     </div>
                 </div>
             </section>
