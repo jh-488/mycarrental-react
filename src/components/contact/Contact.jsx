@@ -1,7 +1,7 @@
 import React from "react";
-import "./Contact.css"
-import Back from "../back/Back"
-import banner from "/images/contact-page/contact-banner.jpg"
+import "./Contact.css";
+import Back from "../back/Back";
+import banner from "/images/contact-page/contact-banner.jpg";
 
 const Contact = () => {
     return (

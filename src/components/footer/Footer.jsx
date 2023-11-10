@@ -10,7 +10,7 @@ const Footer = () => {
     const navigate = useNavigate();
 
     const navigateToContactPage = () => {
-        navigate("/contact");
+        navigate("mycarrental-react/contact");
     }
 
     // for the modal dialog (after newsletter subscription)
