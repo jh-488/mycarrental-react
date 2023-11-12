@@ -3,7 +3,7 @@ import "./Footer.css"
 import { footer } from "../data/Data";
 import { useNavigate } from "react-router-dom";
 import { useRef } from "react";
-import logo from "/logo.png";
+import logo from "/logo.webp";
 
 const Footer = () => {
     // to navigate to contact page when contact us is clicked

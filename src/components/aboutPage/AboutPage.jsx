@@ -1,10 +1,10 @@
 import React from "react";
 import "./AboutPage.css"
 import Back from "../back/Back";
-import img from "/images/about-page/about-page-banner.jpg";
+import img from "/images/about-page/about-page-banner.webp";
 import Heading from "../header/Heading";
 import { aboutInfo } from "../data/Data";
-import aboutImg from "/images/about-page/about-page-img.jpg";
+import aboutImg from "/images/about-page/about-page-img.webp";
 
 const AboutPage = () => {
     return (

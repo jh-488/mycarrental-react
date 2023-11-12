@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Header.css"
 import { Link } from "react-router-dom";
 import { nav } from "../data/Data";
-import logo from "/logo.png";
+import logo from "/logo.webp";
 
 const Header = () => {
     const [navList, setNavList] = useState(false);

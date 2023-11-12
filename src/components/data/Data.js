@@ -19,27 +19,27 @@ export const nav = [
 
 export const featured = [
   {
-    cover: "images/featured-icons/sedan.png",
+    cover: "images/featured-icons/sedan.webp",
     name: "Sedan",
     total: "43 Cars",
   },
   {
-    cover: "images/featured-icons/suv.png",
+    cover: "images/featured-icons/suv.webp",
     name: "SUV",
     total: "50 Cars",
   },
   {
-    cover: "images/featured-icons/coupe.png",
+    cover: "images/featured-icons/coupe.webp",
     name: "Coupe",
     total: "23 Cars",
   },
   {
-    cover: "images/featured-icons/convertible.png",
+    cover: "images/featured-icons/convertible.webp",
     name: "Convertible",
     total: "20 Cars",
   },
   {
-    cover: "images/featured-icons/sport-car.png",
+    cover: "images/featured-icons/sport-car.webp",
     name: "Sports Car",
     total: "45 Cars",
   },
@@ -48,7 +48,7 @@ export const featured = [
 export const cars = [
   {
     id: 1,
-    cover: "images/popular-cars/audi-a8.jpg",
+    cover: "images/cars/audi-a8.webp",
     name: "Audi A8",
     location: "Berlin, Germany",
     category: "Sedan",
@@ -57,7 +57,7 @@ export const cars = [
   },
   {
     id: 2,
-    cover: "images/popular-cars/rr-velar.jpg",
+    cover: "images/cars/rr-velar.webp",
     name: "Range Rover Velar",
     location: "Paris, France",
     category: "SUV",
@@ -66,7 +66,7 @@ export const cars = [
   },
   {
     id: 3,
-    cover: "images/popular-cars/mercedes-cle.jpg",
+    cover: "images/cars/mercedes-cle.webp",
     name: "Mercedes CLE",
     location: "Frankfurt, Germany",
     category: "Coupe",
@@ -75,7 +75,7 @@ export const cars = [
   },
   {
     id: 4,
-    cover: "images/popular-cars/bmw-8s.jpg",
+    cover: "images/cars/bmw-8s.webp",
     name: "BMW 8 Series",
     location: "Madrid, Spain",
     category: "Convertible",
@@ -84,7 +84,7 @@ export const cars = [
   },
   {
     id: 5,
-    cover: "images/popular-cars/porsche-gt3rs.jpg",
+    cover: "images/cars/porsche-gt3rs.webp",
     name: "Porsche GT3 RS",
     location: "London, United Kingdom",
     category: "Sport Car",
@@ -93,7 +93,7 @@ export const cars = [
   },
   {
     id: 6,
-    cover: "images/popular-cars/mercedes-g-class.jpg",
+    cover: "images/cars/mercedes-g-class.webp",
     name: "Mercedes G-Class",
     location: "Berlin, Germany",
     category: "SUV",
@@ -169,27 +169,27 @@ export const faqsData = [
 export const reviews = [
   {
     name: "Jane M.",
-    image: "images/reviews/woman1.png",
+    image: "images/reviews/woman1.webp",
     review: "I had the best experience. The process was seamless, the car was spotless, and the team was incredibly helpful. I highly recommend them for your next adventure!",
   },
   {
     name: "John T.",
-    image: "images/reviews/man1.png",
+    image: "images/reviews/man1.webp",
     review: "I was a bit nervous as a first-time renter, but myCarRental put my worries to rest. Their staff patiently explained everything, and the rental process was straightforward.",
   },
   {
     name: "David H.",
-    image: "images/reviews/man2.png",
+    image: "images/reviews/man2.webp",
     review: "When I want to treat myself to a luxurious ride, I turn to myCarRental. Their selection of high-end vehicles is fantastic, and the experience is always first-class. A perfect choice for a special occasion!",
   },
   {
     name: "Emily R.",
-    image: "images/reviews/woman2.png",
+    image: "images/reviews/woman2.webp",
     review: "I had a last-minute trip and needed a car urgently. The booking was a breeze, and I was behind the wheel in no time. Excellent service and quick response.",
   },
   {
     name: "Tom L.",
-    image: "images/reviews/man3.png",
+    image: "images/reviews/man3.webp",
     review: "Renting a spacious SUV made our family vacation unforgettable. The vehicle was clean, comfortable, and fit all our luggage and kids perfectly. Thank you for making our trip so enjoyable!",
   },
 ]

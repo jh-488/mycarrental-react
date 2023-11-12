@@ -1,5 +1,5 @@
 .hero {
-    background-image: url("/images/hero/hero-banner.jpeg");
+    background-image: url("/images/hero/hero-banner.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -75,5 +75,9 @@ form h4 {
 
     form select {
         width: 100%;
+    }
+
+    form button {
+        margin-bottom: 5px;
     }
 }

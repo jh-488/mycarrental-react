@@ -1,7 +1,7 @@
 import React from "react";
 import "./Faqs.css"
 import Back from "../back/Back";
-import banner from "/images/faqs-page/faqs-banner.jpg"
+import banner from "/images/faqs-page/faqs-banner.webp"
 import { faqsData } from "../data/Data";
 import Accordion from "../accordion/Accordion";
 

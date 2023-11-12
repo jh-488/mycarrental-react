@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Heading from "../../header/Heading";
-import logo from "/logo.png";
+import logo from "/logo.webp";
 
 const About = () => {
     return (
