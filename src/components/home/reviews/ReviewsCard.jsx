@@ -50,12 +50,14 @@ const ReviewsCard = () => {
                         </div>
                     ))}
                 </Slider>
-                <button 
+                <button
+                    aria-label="previous reviews" 
                     className="previous" 
                     onClick={() => arrowsRef.current.slickPrev()}>
                         <i className="fa fa-arrow-left"></i>
                 </button>
-                <button 
+                <button
+                    aria-label="next reviews"  
                     className="next" 
                     onClick={() => arrowsRef.current.slickNext()}>
                         <i className="fa fa-arrow-right"></i>

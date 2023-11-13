@@ -61,7 +61,11 @@ const Hero = ({scrollToCarsSection}) => {
                                 onChange={(e) => setDate(e.target.value)} 
                                 min={EndMindate}/>
                         </div>
-                        <button className="btn" onClick={scrollToCarsSection}>
+                        <button 
+                            className="btn" 
+                            onClick={scrollToCarsSection}
+                            aria-label="Search cars"    
+                        >
                             <i className="fa fa-search"></i>
                         </button>
                     </form>
