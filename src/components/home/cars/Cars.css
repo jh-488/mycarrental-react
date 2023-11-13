@@ -24,5 +24,23 @@
     padding: 10px 30px;
 }
 
+.cars img {
+    height: 30rem;
+}
 
+@media screen and (max-width: 450px) {
+    .cars img {
+        height: 20rem;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1250px) {
+    .cars img {
+        height: 25rem;
+    }
+
+    .grid3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
