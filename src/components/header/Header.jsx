@@ -41,7 +41,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="toggle">
-                        <button onClick={() => setNavList(!navList)}>
+                        <button aria-label="Open/Close menu" onClick={() => setNavList(!navList)}>
                             {navList ? <i className="fa fa-times"></i> : <i className="fa fa-bars"></i>}
                         </button>
                     </div>
