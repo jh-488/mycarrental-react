@@ -13,7 +13,8 @@
   margin: 2rem auto;
 }
 
-.contact h4 span {
+.contact h4 span, .contact-form label span {
+  font-size: 1.2rem;
   color: red;
 }
 
@@ -28,9 +29,10 @@
   border-bottom: none;
 }
 
-.contact .field label {
-  font-size: 1rem;
+.contact-form label {
+  font-size: 1.5rem;
   font-weight: 500;
+  color: #171717;
 }
 
 .contact .field input,
@@ -108,7 +110,11 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
-  .contact-form div {
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form .field {
     display: flex;
     flex-direction: column;
   }

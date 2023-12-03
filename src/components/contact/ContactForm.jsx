@@ -29,7 +29,7 @@ const ContactForm = ({setIsFormSubmitted}) => {
         <form onSubmit={handleSubmit}>
             <fieldset>
                 <div className="field">
-                    <label htmlFor="name">Name:</label>
+                    <label htmlFor="name">Name <span>*</span>:</label>
                     <div>
                         <input 
                             type="text"
@@ -46,7 +46,7 @@ const ContactForm = ({setIsFormSubmitted}) => {
                     </div>
                 </div>
                 <div className="field">
-                    <label htmlFor="email">Email:</label>
+                    <label htmlFor="email">Email <span>*</span>:</label>
                     <div>
                         <input 
                         type="email"
@@ -80,7 +80,7 @@ const ContactForm = ({setIsFormSubmitted}) => {
                     </div>
                     </div>
                 <div className="field">
-                    <label htmlFor="message">Message:</label>
+                    <label htmlFor="message">Message <span>*</span>:</label>
                     <div>
                         <textarea 
                             name="message"
